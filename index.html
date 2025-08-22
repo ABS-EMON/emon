@@ -135,8 +135,8 @@
         }
         
         .message-content code {
-            background-color: #e5e7eb;
-            padding: 0.2rem 0.4rem;
+            background-color: #FFFFFF;
+            padding: 0.1rem 0.2rem;
             border-radius: 0.25rem;
             font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
             font-size: 0.875em;
@@ -144,7 +144,7 @@
         
         body.dark .message-content code {
             background-color: #4b5563;
-            color: #e5e7eb;
+            color: #057EF8;
         }
         
         .message-content blockquote {
@@ -692,7 +692,7 @@
 
         // Predefined responses for common queries
         const manualReplies = {
-            "what's your name": "My name is EMA. Made by A B S EMON.",
+            "what's your name": "My name is EMA made by ABS EMON.",
             "your name": "My name is ABS EMON made by EMON.",
             "how are you": "I'm just a chatbot, but thanks for asking! I'm ready to assist you.",
             "who made you": "I was created by ABS EMON.",
@@ -916,7 +916,7 @@
             const password = document.getElementById('password').value;
             OPENROUTER_API_KEY = document.getElementById('api-key').value;
             
-            if (email === 'emon@gmail.com' && password === 'emon121' && OPENROUTER_API_KEY) {
+            if (email === 'emon@gmail.com' && password === 'Emon121' && OPENROUTER_API_KEY) {
                 // Successful login
                 loginError.classList.add('hidden');
                 loginSection.classList.add('hidden');
@@ -1580,5 +1580,3 @@
     </script>
 </body>
 </html>
-
-
